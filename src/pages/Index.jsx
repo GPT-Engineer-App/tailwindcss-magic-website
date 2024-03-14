@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <Box>
       {/* Navigation */}
-      <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="gray.900" color="white">
+      <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1rem" bg="rgba(255, 255, 255, 0.8)" color="gray.800" borderBottom="1px" borderColor="gray.200">
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={"-.1rem"}>
             TechSolutions
