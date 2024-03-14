@@ -6,17 +6,18 @@ const Index = () => {
   return (
     <Box>
       {/* Navigation */}
-      <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="gray.800" color="white">
+      <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="gray.900" color="white">
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={"-.1rem"}>
-            Tailwind CSS
+            TechSolutions
           </Heading>
         </Flex>
 
         <Stack direction={{ base: "column", md: "row" }} display={{ base: "none", md: "flex" }} width={{ base: "full", md: "auto" }} alignItems="center" flexGrow={1} mt={{ base: 4, md: 0 }}>
-          <Text>Docs</Text>
-          <Text>Examples</Text>
-          <Text>Blog</Text>
+          <Text>Services</Text>
+          <Text>Projects</Text>
+          <Text>About</Text>
+          <Text>Contact</Text>
         </Stack>
 
         <Box display={{ base: "none", md: "block" }}>
